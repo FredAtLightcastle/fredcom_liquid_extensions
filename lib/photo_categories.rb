@@ -5,6 +5,7 @@ module Locomotive
 
         def PhotoCategories(input)
           Rails.logger.info "input: #{input}"
+          "input: #{input}"
         end
 
       end
