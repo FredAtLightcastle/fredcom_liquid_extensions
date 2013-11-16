@@ -4,11 +4,11 @@
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
-require 'locomotive/liquid_extensions/version'
+require 'lib/fredcom_liquid_extensions/version'
 
 Gem::Specification.new do |s|
   s.name        = 'fredcom_liquid_extensions'
-  s.version     = Locomotive::LiquidExtensions::VERSION
+  s.version     = FredcomLiquid::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Fred McDavid']
   s.email       = ['fred@landmetrics.com']
