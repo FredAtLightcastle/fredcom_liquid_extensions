@@ -1,15 +1,8 @@
-module Locomotive
-  module LiquidExtensions
-    module Filters
-      module PhotoCategories
+module PhotoFilter
 
-        def PhotoCategories(input)
-          Rails.logger.info "input: #{input}"
-          "input: #{input}"
-        end
-
-      end
-
-    end
+  def PhotoCategories(input)
+    Rails.logger.info "input: #{input}"
+    "input: #{input.pretty_inspect}"
   end
+
 end
